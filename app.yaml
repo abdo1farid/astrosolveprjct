@@ -1,0 +1,5 @@
+name: biotechpark_website-showoff
+app_id: da_K0DIkt5UJzJr
+owner: biotechpark
+package: '.'
+kind: wasmer.io/App.v0

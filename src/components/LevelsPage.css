@@ -1,0 +1,68 @@
+.stars-small,
+.stars-medium,
+.stars-large {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+}
+
+.stars-small::after,
+.stars-medium::after,
+.stars-large::after {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background: white;
+    box-shadow: 
+        10vw 10vh 1px white,
+        20vw 20vh 1px white,
+        30vw 30vh 1px white,
+        40vw 40vh 1px white,
+        50vw 50vh 1px white,
+        60vw 60vh 1px white,
+        70vw 70vh 1px white,
+        80vw 80vh 1px white,
+        90vw 90vh 1px white;
+    animation: twinkle 5s ease-in-out infinite;
+}
+
+.stars-medium::after {
+    width: 3px;
+    height: 3px;
+    box-shadow: 
+        15vw 15vh 2px white,
+        25vw 25vh 2px white,
+        35vw 35vh 2px white,
+        45vw 45vh 2px white,
+        55vw 55vh 2px white,
+        65vw 65vh 2px white,
+        75vw 75vh 2px white,
+        85vw 85vh 2px white,
+        95vw 95vh 2px white;
+    animation: twinkle 4s ease-in-out infinite;
+}
+
+.stars-large::after {
+    width: 4px;
+    height: 4px;
+    box-shadow: 
+        5vw 5vh 3px white,
+        15vw 15vh 3px white,
+        25vw 25vh 3px white,
+        35vw 35vh 3px white,
+        45vw 45vh 3px white,
+        55vw 55vh 3px white,
+        65vw 65vh 3px white,
+        75vw 75vh 3px white,
+        85vw 85vh 3px white;
+    animation: twinkle 3s ease-in-out infinite;
+}
+
+@keyframes twinkle {
+    0%, 100% { opacity: 0.2; }
+    50% { opacity: 1; }
+}
