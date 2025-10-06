@@ -203,7 +203,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🔗 Contact
 
-Project Link: [https://github.com/yourusername/astrosolve](https://github.com/yourusername/astrosolve)
+Project Link: [(https://github.com/abdo1farid/astrosolveprjct)](https://github.com/abdo1farid/astrosolveprjct)
 
 ---
 
@@ -212,4 +212,5 @@ Project Link: [https://github.com/yourusername/astrosolve](https://github.com/yo
 Made with ❤️ by the AstroSolve Team
 
 </div>
+
 
